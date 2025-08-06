@@ -74,7 +74,7 @@ var randomItem = selectRandomItem(items);
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hey there, MALVIN-XD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *MADUVANTHA-md* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -83,23 +83,21 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbBDFyFIXnlzTn5Dkr00
 
-*💻 Source Code:*  
-Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by Maduvantha-md*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+thumbnailUrl: "https://files.catbox.moe/88mg5f.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbBDFyFIXnlzTn5Dkr00",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -108,9 +106,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                            let desc = `*Hey there, Maduvantha-md User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *Maduvantha-md* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -119,21 +117,18 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbBDFyFIXnlzTn5Dkr00
 
-*💻 Source Code:*  
-Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
 
-> *© Powered by Malvin King*
+> *© Powered by Maduvantha-md*
 Stay cool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+thumbnailUrl: "https://files.catbox.moe/88mg5f.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbBDFyFIXnlzTn5Dkr00",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -150,7 +145,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MALVIN_XD_PAIR_CODE();
+                    MADUVANTHA_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -161,7 +156,7 @@ showAdAttribution: true
             }
         }
     }
-    await MALVIN_XD_PAIR_CODE();
+    await MADUVANTHA_MD_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
